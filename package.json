@@ -1,0 +1,23 @@
+{
+  "name": "read-xls-file-in-nodejs",
+  "version": "1.0.0",
+  "description": "read xls file and return json",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikashraj144/read-xls-file-in-nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "read-xls"
+  ],
+  "author": "vikash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikashraj144/read-xls-file-in-nodejs/issues"
+  },
+  "homepage": "https://github.com/vikashraj144/read-xls-file-in-nodejs#readme"
+}
