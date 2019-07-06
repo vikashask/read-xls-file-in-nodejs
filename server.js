@@ -17,9 +17,13 @@ app.use(bodyParser.json({
 app.use(morgan('combined')); //'combined' outputs the Apache style LOGs
 
 // route
+const xlsRoute = require('./routes/xlsRoute');
+
 app.get("/", (req, res) => res.json({
     message: "Welcome to our Demo convert xls to json"
 }));
+
+app.get("/getXls",xlsRoute.getXls);
 
 
 app.listen(port);
