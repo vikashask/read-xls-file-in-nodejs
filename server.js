@@ -16,6 +16,11 @@ app.use(bodyParser.json({
 //use morgan to log at command line
 app.use(morgan('combined')); //'combined' outputs the Apache style LOGs
 
+// route
+app.get("/", (req, res) => res.json({
+    message: "Welcome to our Demo convert xls to json"
+}));
+
 
 app.listen(port);
 console.log("Listening on port " + port);
